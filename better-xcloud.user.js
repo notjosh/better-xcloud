@@ -195,6 +195,7 @@ const Translations = {
         "tr-TR": "Etkinleştir",
         "uk-UA": "Активувати",
         "vi-VN": "Kích hoạt",
+        "zh-CN": "启用",
     },
     "activated": {
         "de-DE": "Aktiviert",
@@ -208,6 +209,7 @@ const Translations = {
         "tr-TR": "Etkin",
         "uk-UA": "Активований",
         "vi-VN": "Đã kích hoạt",
+        "zh-CN": "已启用",
     },
     "active": {
         "de-DE": "Aktiv",
@@ -249,6 +251,7 @@ const Translations = {
         "tr-TR": "Uygula",
         "uk-UA": "Застосувати",
         "vi-VN": "Áp dụng",
+        "zh-CN": "应用",
     },
     "audio": {
         "de-DE": "Audio",
@@ -439,7 +442,7 @@ const Translations = {
         "ru-RU": "Яркость",
         "tr-TR": "Aydınlık",
         "uk-UA": "Яскравість",
-        "vi-VN": "Độ sáng",
+        "vi-VN": "Độ sáng",
         "zh-CN": "亮度",
     },
     "browser-unsupported-feature": {
@@ -545,7 +548,7 @@ const Translations = {
         "ru-RU": "Очистить",
         "tr-TR": "Temizle",
         "uk-UA": "Очистити",
-        "vi-VN": "Xóa",
+        "vi-VN": "Xóa",
         "zh-CN": "清空",
     },
     "close": {
@@ -656,6 +659,10 @@ const Translations = {
         "vi-VN": "Bộ điều khiển",
         "zh-CN": "手柄",
     },
+    "controller-shortcuts": {
+        "en-US": "Controller shortcuts",
+        "vi-VN": "Các phím tắt tay cầm",
+    },
     "controller-vibration": {
         "de-DE": "Vibration des Controllers",
         "en-US": "Controller vibration",
@@ -682,6 +689,7 @@ const Translations = {
         "tr-TR": "Kopyala",
         "uk-UA": "Копіювати",
         "vi-VN": "Sao chép",
+        "zh-CN": "复制",
     },
     "custom": {
         "de-DE": "Benutzerdefiniert",
@@ -950,7 +958,7 @@ const Translations = {
         "ru-RU": "Включить функцию «Удаленная игра»",
         "tr-TR": "\"Uzaktan Oynama\" özelliğini aktive et",
         "uk-UA": "Увімкнути функцію \"Remote Play\"",
-        "vi-VN": "Bật tính năng \"Chơi từ xa\"",
+        "vi-VN": "Bật tính năng \"Chơi Từ Xa\"",
         "zh-CN": "启用\"远程播放\"功能",
     },
     "enable-volume-control": {
@@ -1030,10 +1038,13 @@ const Translations = {
     "help": {
         "de-DE": "Hilfe",
         "en-US": "Help",
+        "es-ES": "Ayuda",
         "ja-JP": "ヘルプ",
         "pt-BR": "Ajuda",
         "ru-RU": "Справка",
+        "uk-UA": "Довідка",
         "vi-VN": "Trợ giúp",
+        "zh-CN": "帮助",
     },
     "hide-idle-cursor": {
         "de-DE": "Mauszeiger bei Inaktivität ausblenden",
@@ -1078,6 +1089,7 @@ const Translations = {
         "tr-TR": "Yatay hassasiyet",
         "uk-UA": "Горизонтальна чутливість",
         "vi-VN": "Độ nhạy ngang",
+        "zh-CN": "水平灵敏度",
     },
     "import": {
         "de-DE": "Importieren",
@@ -1092,6 +1104,10 @@ const Translations = {
         "uk-UA": "Імпорт",
         "vi-VN": "Nhập",
         "zh-CN": "导入",
+    },
+    "keyboard-shortcuts": {
+        "en-US": "Keyboard shortcuts",
+        "vi-VN": "Các phím tắt bàn phím",
     },
     "language": {
         "de-DE": "Sprache",
@@ -1152,6 +1168,7 @@ const Translations = {
         "tr-TR": "Sol analog çubuk",
         "uk-UA": "Лівий стік",
         "vi-VN": "Analog trái",
+        "zh-CN": "左摇杆",
     },
     "loading-screen": {
         "de-DE": "Ladebildschirm",
@@ -1222,7 +1239,7 @@ const Translations = {
         "ko-KR": "통계",
         "pl-PL": "Statystyki strumienia",
         "pt-BR": "Estatísticas da transmissão",
-        "ru-RU": "Статистика потоковой передачи",
+        "ru-RU": "Статистика стрима",
         "tr-TR": "Yayın durumu",
         "uk-UA": "Статистика трансляції",
         "vi-VN": "Thông số stream",
@@ -1264,6 +1281,7 @@ const Translations = {
         "tr-TR": "Etkinleştirmek için tıklayın",
         "uk-UA": "Натисніть, щоб активувати",
         "vi-VN": "Nhấn vào để kích hoạt",
+        "zh-CN": "单击以启用",
     },
     "mouse-and-keyboard": {
         "de-DE": "Maus & Tastatur",
@@ -1321,6 +1339,7 @@ const Translations = {
         "tr-TR": "Yeni",
         "uk-UA": "Новий",
         "vi-VN": "Tạo mới",
+        "zh-CN": "新建",
     },
     "no-consoles-found": {
         "de-DE": "Keine Konsolen gefunden",
@@ -1652,7 +1671,7 @@ const Translations = {
         "ru-RU": "Удаленная игра",
         "tr-TR": "Uzaktan Bağlanma",
         "uk-UA": "Віддалена гра",
-        "vi-VN": "Chơi từ xa",
+        "vi-VN": "Chơi Từ Xa",
         "zh-CN": "远程游玩",
     },
     "rename": {
@@ -1667,6 +1686,7 @@ const Translations = {
         "tr-TR": "Ad değiştir",
         "uk-UA": "Перейменувати",
         "vi-VN": "Sửa tên",
+        "zh-CN": "重命名",
     },
     "right-click-to-unbind": {
         "de-DE": "Rechtsklick auf Taste: Zuordnung aufheben",
@@ -1692,6 +1712,7 @@ const Translations = {
         "tr-TR": "Sağ analog çubuk",
         "uk-UA": "Правий стік",
         "vi-VN": "Analog phải",
+        "zh-CN": "右摇杆",
     },
     "rocket-always-hide": {
         "de-DE": "Immer ausblenden",
@@ -1866,6 +1887,10 @@ const Translations = {
         "uk-UA": "Перезавантаження...",
         "vi-VN": "Đang tải lại...",
         "zh-CN": "正在重新加载...",
+    },
+    "shortcut-keys": {
+        "en-US": "Shortcut keys",
+        "vi-VN": "Các phím tắt",
     },
     "show-game-art": {
         "de-DE": "Poster des Spiels anzeigen",
@@ -2142,6 +2167,7 @@ const Translations = {
         "pt-BR": "Mínimo decaimento do analógico",
         "ru-RU": "Минимальная перезарядка стика",
         "tr-TR": "Çubuğun ortalanma süresi minimumu",
+        "uk-UA": "Мінімальне згасання стіка",
         "vi-VN": "Độ suy giảm tối thiểu của cần điều khiển",
     },
     "stick-decay-strength": {
@@ -2151,6 +2177,7 @@ const Translations = {
         "pt-BR": "Força de decaimento do analógico",
         "ru-RU": "Скорость перезарядки стика",
         "tr-TR": "Çubuğun ortalanma gücü",
+        "uk-UA": "Сила згасання стіка",
         "vi-VN": "Sức mạnh độ suy giảm của cần điều khiển",
     },
     "stream": {
@@ -2194,7 +2221,8 @@ const Translations = {
         "ru-RU": "Поддержать Better xCloud",
         "tr-TR": "Better xCloud'a destek ver",
         "uk-UA": "Підтримати Better xCloud",
-        "vi-VN": "Hỗ trợ Better xCloud",
+        "vi-VN": "Ủng hộ Better xCloud",
+        "zh-CN": "赞助本插件",
     },
     "swap-buttons": {
         "de-DE": "Tasten tauschen",
@@ -2520,6 +2548,7 @@ const Translations = {
         "tr-TR": "Dikey hassasiyet",
         "uk-UA": "Вертикальна чутливість",
         "vi-VN": "Độ ngạy dọc",
+        "zh-CN": "垂直灵敏度",
     },
     "vibration-intensity": {
         "de-DE": "Vibrationsstärke",
@@ -2741,6 +2770,7 @@ const Icon = {
     TRASH: '<path d="M29.5 6.182h-27m9.818 7.363v9.818m7.364-9.818v9.818"/><path d="M27.045 6.182V29.5c0 .673-.554 1.227-1.227 1.227H6.182c-.673 0-1.227-.554-1.227-1.227V6.182m17.181 0V3.727a2.47 2.47 0 0 0-2.455-2.455h-7.364a2.47 2.47 0 0 0-2.455 2.455v2.455"/>',
     CURSOR_TEXT: '<path d="M16 7.3a5.83 5.83 0 0 1 5.8-5.8h2.9m0 29h-2.9a5.83 5.83 0 0 1-5.8-5.8"/><path d="M7.3 30.5h2.9a5.83 5.83 0 0 0 5.8-5.8V7.3a5.83 5.83 0 0 0-5.8-5.8H7.3"/><path d="M11.65 16h8.7"/>',
     QUESTION: '<g transform="matrix(.256867 0 0 .256867 -16.878964 -18.049342)"><circle cx="128" cy="180" r="12" fill="#fff"/><path d="M128 144v-8c17.67 0 32-12.54 32-28s-14.33-28-32-28-32 12.54-32 28v4" fill="none" stroke="#fff" stroke-width="16"/></g>',
+    COMMAND: '<path d="M25.425 1.5c2.784 0 5.075 2.291 5.075 5.075s-2.291 5.075-5.075 5.075H20.35V6.575c0-2.784 2.291-5.075 5.075-5.075zM11.65 11.65H6.575C3.791 11.65 1.5 9.359 1.5 6.575S3.791 1.5 6.575 1.5s5.075 2.291 5.075 5.075v5.075zm8.7 8.7h5.075c2.784 0 5.075 2.291 5.075 5.075S28.209 30.5 25.425 30.5s-5.075-2.291-5.075-5.075V20.35zM6.575 30.5c-2.784 0-5.075-2.291-5.075-5.075s2.291-5.075 5.075-5.075h5.075v5.075c0 2.784-2.291 5.075-5.075 5.075z"/><path d="M11.65 11.65h8.7v8.7h-8.7z"/>',
 
     REMOTE_PLAY: '<g transform="matrix(.492308 0 0 .581818 -14.7692 -11.6364)"><clipPath id="A"><path d="M30 20h65v55H30z"/></clipPath><g clip-path="url(#A)"><g transform="matrix(.395211 0 0 .334409 11.913 7.01124)"><g transform="matrix(.555556 0 0 .555556 57.8889 -20.2417)" fill="none" stroke="#fff" stroke-width="13.88"><path d="M200 140.564c-42.045-33.285-101.955-33.285-144 0M168 165c-23.783-17.3-56.217-17.3-80 0"/></g><g transform="matrix(-.555556 0 0 -.555556 200.111 262.393)"><g transform="matrix(1 0 0 1 0 11.5642)"><path d="M200 129c-17.342-13.728-37.723-21.795-58.636-24.198C111.574 101.378 80.703 109.444 56 129" fill="none" stroke="#fff" stroke-width="13.88"/></g><path d="M168 165c-23.783-17.3-56.217-17.3-80 0" fill="none" stroke="#fff" stroke-width="13.88"/></g><g transform="matrix(.75 0 0 .75 32 32)"><path d="M24 72h208v93.881H24z" fill="none" stroke="#fff" stroke-linejoin="miter" stroke-width="9.485"/><circle cx="188" cy="128" r="12" stroke-width="10" transform="matrix(.708333 0 0 .708333 71.8333 12.8333)"/><path d="M24.358 103.5h110" fill="none" stroke="#fff" stroke-linecap="butt" stroke-width="10.282"/></g></g></g></g>',
 
@@ -4577,7 +4607,6 @@ class MkbHandler {
     }
 
     stop = () => {
-
         // Dispatch "gamepaddisconnected" event
         const virtualGamepad = this.#getVirtualGamepad();
         virtualGamepad.connected = false;
@@ -9680,6 +9709,24 @@ function setupQuickSettingsBar() {
                             onChange: VibrationManager.updateGlobalVars,
                         },
                     },
+                },
+            ],
+        },
+
+        {
+            icon: Icon.COMMAND,
+            group: 'shortcuts',
+            items: [
+                {
+                    group: 'shortcuts_keyboard',
+                    label: __('keyboard-shortcuts'),
+                    content: CE('span', {}, 'test'),
+                },
+
+                {
+                    group: 'shortcuts_controller',
+                    label: __('controller-shortcuts'),
+                    content: CE('span', {}, 'test'),
                 },
             ],
         },
