@@ -1,0 +1,26 @@
+{
+  "id": "com.redphx.better-xcloud",
+  "version": "0.0.0",
+  "vendor": "redphx",
+  "type": "web",
+  "main": "index.html",
+  "title": "Better xCloud",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "iconColor": "#ff0000",
+  "checkUpdateOnLaunch": false,
+  "accessibility": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188",
+    "supportsAudioGuidance": true
+  },
+  "vendorExtension": {
+    "allowCrossDomain": true
+  },
+  "enablePigScreenSaver": false,
+  "trustLevel": "netcast",
+  "privilegedJail": true,
+  "supportQuickStart": true,
+  "dialAppName": "Better xCloud",
+  "disableBackHistoryAPI": true,
+  "supportGIP": true
+}
