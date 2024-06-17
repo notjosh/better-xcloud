@@ -9,6 +9,7 @@
     "@types/bun": "^1.1.3",
     "@types/node": "^20.13.0",
     "@types/stylus": "^0.48.42",
+    "@webos-tools/cli": "^3.0.6",
     "stylus": "^0.63.0"
   },
   "peerDependencies": {
