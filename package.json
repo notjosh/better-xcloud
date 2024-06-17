@@ -5,6 +5,9 @@
   "bin": {
     "build": "build.ts"
   },
+  "scripts": {
+    "webos": "bun build ./src/targets/webos/additional-code.js > dist/additional-code.js; node ./bundle-webos.js"
+  },
   "devDependencies": {
     "@types/bun": "^1.1.3",
     "@types/node": "^20.13.0",
@@ -14,5 +17,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@ungap/structured-clone": "^1.2.0"
   }
 }

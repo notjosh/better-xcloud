@@ -55,10 +55,7 @@ if (version == null) {
 console.log(`Version: ${version}`);
 
 // write `Additional Code` to `src`
-const additionalCode = await readFile(
-  "src/targets/webos/additional-code.js",
-  "utf-8"
-);
+const additionalCode = await readFile("dist/additional-code.js", "utf-8");
 src = src.replace("/* ADDITIONAL CODE */", additionalCode);
 
 console.log(`Injected webOS-specific code`);

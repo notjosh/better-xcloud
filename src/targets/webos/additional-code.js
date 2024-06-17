@@ -1,10 +1,16 @@
-if (window.location.pathname.startsWith('/oauth20_authorize.srf')) {
-  window.location = 'https://www.xbox.com/play/login/deviceCode';
-  throw new Error('[Better xCloud] Ignore');
+import structuredClone from "@ungap/structured-clone";
+
+if (!("structuredClone" in globalThis)) {
+  globalThis.structuredClone = structuredClone;
 }
 
-if (!window.location.pathname.includes('/play')) {
-  throw new Error('[Better xCloud] Ignore');
+if (window.location.pathname.startsWith("/oauth20_authorize.srf")) {
+  window.location = "https://www.xbox.com/play/login/deviceCode";
+  throw new Error("[Better xCloud] Ignore");
+}
+
+if (!window.location.pathname.includes("/play")) {
+  throw new Error("[Better xCloud] Ignore");
 }
 
 window.BX_FLAGS = {
