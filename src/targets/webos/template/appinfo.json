@@ -22,5 +22,6 @@
   "supportQuickStart": true,
   "dialAppName": "Better xCloud",
   "disableBackHistoryAPI": true,
-  "supportGIP": true
+  "supportGIP": true,
+  "cloudgame_active": true
 }
